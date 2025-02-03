@@ -20,10 +20,7 @@ app.use(morgan('dev'));
 app.use('/api', router);
 
 const getAController = async (req: Request, res: Response) => {
-  // Promise.reject();
-  const a = 10;
-
-  res.send(a);
+  res.send('Welcome to my car shop');
 };
 app.get('/', getAController);
 
