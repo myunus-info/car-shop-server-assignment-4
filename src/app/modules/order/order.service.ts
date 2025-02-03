@@ -133,7 +133,6 @@ const updateOrderStatus = async (id: string, payload: Pick<IOrder, 'status'>) =>
 
 const verifyPayment = async (order_id: string) => {
   const [verifiedPayment] = await orderUtils.verifyPaymentAsync(order_id);
-  // console.log(verifiedPayment);
 
   if (verifiedPayment) {
     const bankStatus = verifiedPayment.bank_status;
