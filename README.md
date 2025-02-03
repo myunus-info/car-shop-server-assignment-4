@@ -59,5 +59,3 @@ $ npm run lint:fix      # fix whether there is any potential error
 $ npm run prettier      # beautify the unorganized code
 $ npm run prettier:fix  # prettier-fix your code
 ```
-
-### VIDEO INTRO: [(Click Here)](https://drive.google.com/file/d/1L5T5PhQeanlcMOR9wukxvBLw_Eppnp3U/view?usp=sharing)
